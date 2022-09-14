@@ -1,0 +1,156 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+
+body{
+    max-width: 1300px;
+    margin: auto;       
+    font-family: 'Lexend', sans-serif;
+    background-size:100%;
+    background-color: #f3c6a5;
+
+
+
+}
+
+.home li{
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-top: 4px;
+    font-weight: 600;
+    padding: 30px;
+    
+}
+
+a:hover{
+    color: #5b3814;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.home{ 
+    position: sticky;
+    position: -webkit-sticky;
+    overflow: visible;
+}
+
+#monnymania{
+    width: 200px;
+    float: left;
+    position: absolute;
+
+
+}
+
+p{
+    font-size: 35px;
+    font-weight: bold;
+    left: 100px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#container{
+    overflow:visible;
+
+
+}
+
+.catalogo{
+
+    height: 25%;
+    padding: 30px;
+    text-align: center;
+    background-color: #f5f2df;
+    border-radius: 100px;
+    color: #5b3814;
+
+
+}
+
+.secao{
+
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+
+}
+
+.secao a{
+    color: #5b3814;
+}
+
+.secao li{
+ 
+    text-align: center;
+    background-color: #f5f2df;
+    border-radius: 100px;
+    margin-top: 40px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 5px 10px #eeb29a;
+    font-weight: bold;
+    
+}
+
+.secao a:hover{
+    color: #d37f2c;
+}
+
+#instagram{
+    border-radius: 30px;
+    width: 30%;
+    height: 30%;
+    float: right;
+    margin: 2% 10% 0 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d37f2c;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a86623;
+  }
