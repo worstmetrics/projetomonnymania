@@ -13,6 +13,7 @@ body{
     font-family: 'Lexend', sans-serif;
     background-size:100%;
     background-color: #f3c6a5;
+    overflow-x: hidden;
 
 
 
@@ -39,7 +40,7 @@ a{
 }
 
 .home{ 
-    position: sticky;
+    position: relative;
     position: -webkit-sticky;
     overflow: visible;
 }
@@ -47,7 +48,7 @@ a{
 #monnymania{
     width: 200px;
     float: left;
-    position: absolute;
+    position: relative;
 
 
 }
@@ -62,7 +63,8 @@ p{
 
 #container{
     overflow:visible;
-
+    position: relative;
+    right: 80px
 
 }
 
@@ -84,6 +86,7 @@ p{
     width: 50%;
     height: 100%;
 
+
 }
 
 .secao a{
@@ -97,7 +100,7 @@ p{
     border-radius: 100px;
     margin-top: 40px;
     padding: 20px;
-    margin-left: 10px;
+    margin-left: 200px;
     margin-right: 10px;
     box-shadow: 0px 5px 10px #eeb29a;
     font-weight: bold;
@@ -114,8 +117,11 @@ p{
     height: 30%;
     float: right;
     margin: 2% 10% 0 0;
+    position: relative;
+    bottom: 320px;
     
 }
+
 
 
 
